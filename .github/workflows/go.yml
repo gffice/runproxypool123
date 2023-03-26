@@ -4,8 +4,6 @@
 name: Go
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
 
@@ -22,15 +20,15 @@ jobs:
         go-version: 1.18
     - name: pull
       run: git clone https://github.com/ssrlive/proxypool.git
-    - name: chmod
-      run: |
-        chmod 777 debug-github-actions.sh
-    - name: Start SSH via Ngrok
-      run: ./debug-github-actions.sh
-      env:
+    #- name: chmod
+      #run: |
+        #chmod 777 debug-github-actions.sh
+    #- name: Start SSH via Ngrok
+      #run: ./debug-github-actions.sh
+      #env:
         # After sign up on the https://ngrok.com/
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
-        NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
+        #NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
 
     - name: Build
       run: |
@@ -43,8 +41,19 @@ jobs:
          #cd ./runproxypool
          #chmod 777 ./proxypool
          #./proxypool -c ./config/config.yaml
-    - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
-      uses: actions/upload-artifact@v2
+    #- name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
+      #uses: actions/upload-artifact@v2
+      #with:
+        #name: build_output
+        #path: .
+    - name: Commit change
+      run: |
+        git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git pull origin master
+        git add ./hosts.txt
+        git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新DNS记录"
+    - name: 上传
+      uses:  ad-m/github-push-action@master
       with:
-        name: build_output
-        path: .
+        branch: master
