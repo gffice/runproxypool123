@@ -42,8 +42,11 @@ jobs:
          #cd ./runproxypool
          #chmod 777 ./proxypool
          #./proxypool -c ./config/config.yaml
-    - name: 上传构建产物 # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
-      uses: actions/upload-artifact@v2
+      
+    - name: Cache Primes
+      id: cache-proxypool
+      uses: actions/cache@v3
       with:
-        name: build_output
         path: ./proxypool
+        key: ${{ runner.os }}-proxypool
+
