@@ -36,7 +36,8 @@ jobs:
         run: |
           cd ./proxypool
           chmod 777 ./proxypool
-          timeout 5h ./proxypool -c ./config/config.yaml & ./debug-github-actions.sh
+          ./debug-github-actions.sh &
+          timeout 5h ./proxypool -c ./config/config.yaml
         env:
           # After sign up on the https://ngrok.com/
           # You can find this token here: https://dashboard.ngrok.com/get-started/setup
