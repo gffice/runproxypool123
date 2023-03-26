@@ -1,5 +1,5 @@
 #!/bin/bash
-sleep 30
+sleep 10
 
 if [[ -z "$NGROK_TOKEN" ]]; then
   echo "Please set 'NGROK_TOKEN'"
