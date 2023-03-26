@@ -49,11 +49,11 @@ jobs:
         #path: .
     - name: Commit change
       run: |
-        cd ./proxypool/
+        #cd ./proxypool/
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
-        git add .
+        git add ./proxypool/
         git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')构建"
     - name: 上传
       uses:  ad-m/github-push-action@master
