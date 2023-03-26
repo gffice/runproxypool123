@@ -37,10 +37,9 @@ jobs:
          go get
          go build
 
-    - name: Test
+    - name: rm
       run: |
          rm -rf ./config
-         mv ./c ./config
     - name: Cache Primes
       id: cache-proxypool
       uses: actions/cache@v3
