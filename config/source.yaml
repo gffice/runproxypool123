@@ -24,6 +24,11 @@
     channel: SSRSUC
     num: 500
 
+- type: tgchannel
+  options:
+    channel: juzibaipiao
+    num: 500
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
