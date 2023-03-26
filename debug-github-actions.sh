@@ -33,7 +33,7 @@ HAS_ERRORS=$(grep "command failed" < .ngrok.log)
 if [[ -z "$HAS_ERRORS" ]]; then
   echo ""
   echo "=========================================="
-  echo "To connect: $(grep -o -E "tcp://(.+)" < .ngrok.log | sed "s/tcp:\/\//http:// /" | sed "s/:/ -p /")"
+  echo "To connect web : $(grep -o -E "tcp://(.+)" < .ngrok.log | sed "s/tcp:\/\// /" | sed "s/:/ -p /")"
   echo "=========================================="
 else
   echo "$HAS_ERRORS"
