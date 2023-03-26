@@ -32,9 +32,12 @@ HAS_ERRORS=$(grep "command failed" < .ngrok.log)
 
 if [[ -z "$HAS_ERRORS" ]]; then
   echo ""
-  echo "=========================================="
-  echo "To connect web : $(grep -o -E "tcp://(.+)" < .ngrok.log | sed "s/tcp:\/\// /" | sed "s/:/ -p /")"
-  echo "=========================================="
+  #echo "=========================================="
+  echo "#请在浏览器打开 : $(grep -o -E "tcp://(.+)" < .ngrok.log | sed "s/tcp:\/\// /" | sed "s/:/:/")"
+  echo ""
+  echo "网站生成时间:$(date '+%Y-%m-%d %H:%M:%S')"
+  echo "有效期:5小时"
+  #echo "=========================================="
 else
   echo "$HAS_ERRORS"
   exit 4
