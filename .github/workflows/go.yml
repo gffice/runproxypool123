@@ -31,7 +31,7 @@ jobs:
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
         #NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
 
-    - name: Build
+    - name: 构建
       run: |
          cd ./proxypool
          go get
@@ -42,21 +42,8 @@ jobs:
          #cd ./runproxypool
          #chmod 777 ./proxypool
          #./proxypool -c ./config/config.yaml
-    #- name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
-      #uses: actions/upload-artifact@v2
-      #with:
-        #name: build_output
-        #path: .
-    - name: Commit change
-      run: |
-        #cd ./proxypool/
-        chmod 777 ./proxypool/proxypool
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Actions"
-        git pull origin master
-        git add ./proxypool/proxypool
-        git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')构建"
-    - name: 上传
-      uses:  ad-m/github-push-action@master
+    - name: 上传构建产物 # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
+      uses: actions/upload-artifact@v2
       with:
-        branch: master
+        name: build_output
+        path: ./proxypool
