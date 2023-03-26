@@ -19,7 +19,7 @@ jobs:
         go-version: 1.18
     - name: pull
       run: |
-        rm -r ./proxypool/
+        #rm -r ./proxypool/
         git clone https://github.com/ssrlive/proxypool.git
     #- name: chmod
       #run: |
