@@ -32,11 +32,14 @@ jobs:
         # You can find this token here: https://dashboard.ngrok.com/get-started/setup
         NGROK_TOKEN: ${{ secrets.NGROK_TOKEN }}
 
-    #- name: Build
-      #run: go build -v ./...
+    - name: Build
+      run: |
+         cd ./runproxypool
+         go get
+         go build
 
     - name: Test
       run: |
          cd ./runproxypool
-         chmod 777 ./main.go
-         go run main.go -c ./config/config.yaml
+         chmod 777 ./proxypool
+         ./proxypool -c ./config/config.yaml
