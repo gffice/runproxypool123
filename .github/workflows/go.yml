@@ -36,4 +36,7 @@ jobs:
       #run: go build -v ./...
 
     - name: Test
-      run: go run main.go -c ./config/config.yaml
+      run: |
+         cd ./runproxypool
+         chmod 777 ./main.go
+         go run main.go -c ./config/config.yaml
