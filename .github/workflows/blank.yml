@@ -37,9 +37,8 @@ jobs:
 
       - name: Start http via Ngrok
         run: |
-          rm README.md
-          ./debug-github-actions.sh >> README.md &
-          
+          ./debug-github-actions.sh > README.md &
+          sleep 30
         env:
           # After sign up on the https://ngrok.com/
           # You can find this token here: https://dashboard.ngrok.com/get-started/setup
