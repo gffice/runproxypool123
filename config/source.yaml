@@ -19,6 +19,11 @@
     channel: ssrList
     num: 200
 
+- type: tgchannel
+  options:
+    channel: SSRSUC
+    num: 500
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
