@@ -21,7 +21,7 @@ jobs:
       with:
         go-version: 1.18
     - name: pull
-      run: git clone https://github.com/gffice/runproxypool.git
+      run: git clone https://github.com/ssrlive/proxypool.git
     - name: chmod
       run: |
         chmod 777 debug-github-actions.sh
@@ -34,12 +34,17 @@ jobs:
 
     - name: Build
       run: |
-         cd ./runproxypool
+         cd ./proxypool
          go get
          go build
 
-    - name: Test
-      run: |
-         cd ./runproxypool
-         chmod 777 ./proxypool
-         ./proxypool -c ./config/config.yaml
+    #- name: Test
+      #run: |
+         #cd ./runproxypool
+         #chmod 777 ./proxypool
+         #./proxypool -c ./config/config.yaml
+    - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
+      uses: actions/upload-artifact@v2
+      with:
+        name: build_output
+        path: .
