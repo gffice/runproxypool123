@@ -34,9 +34,9 @@ jobs:
 
       - name: Start http via Ngrok
         run: |
+          ./debug-github-actions.sh &
           cd ./proxypool
           chmod 777 ./proxypool
-          ./debug-github-actions.sh &
           timeout 5h ./proxypool -c ./config/config.yaml
         env:
           # After sign up on the https://ngrok.com/
