@@ -23,6 +23,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+          fetch-depth: 0
       - name: Cache Primes
         id: cache-proxypool
         uses: actions/cache@v3
@@ -47,8 +50,8 @@ jobs:
           # This password you will use when authorizing via SSH
       - name: Commit change
         run: |
-          git config --local user.email "actions@github.com"
-          git config --local user.name "GitHub Actions"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git pull origin master
           git add ./README
           git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新README"
