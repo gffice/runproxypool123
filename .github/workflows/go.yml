@@ -19,7 +19,9 @@ jobs:
       with:
         go-version: 1.18
     - name: pull
-      run: git clone https://github.com/ssrlive/proxypool.git
+      run: |
+        rm -r ./proxypool/
+        git clone https://github.com/ssrlive/proxypool.git
     #- name: chmod
       #run: |
         #chmod 777 debug-github-actions.sh
@@ -51,8 +53,8 @@ jobs:
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
-        git add ./hosts.txt
-        git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新DNS记录"
+        git add ./proxypool
+        git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')代码构建"
     - name: 上传
       uses:  ad-m/github-push-action@master
       with:
