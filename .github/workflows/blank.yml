@@ -26,7 +26,7 @@ jobs:
         id: cache-proxypool
         uses: actions/cache@v3
         with:
-          path: ./proxypool
+          path: ./runproxypool
           key: ${{ runner.os }}-proxypool
       # Runs a single command using the runners shell
       - name: Run a one-line script
@@ -58,9 +58,9 @@ jobs:
           branch: master
       - name: run proxypool
         run: |
-          cd ./proxypool
-          chmod 777 ./proxypool
-          timeout 5h ./proxypool -c ./config/config.yaml
+          cd ./runproxypool
+          chmod 777 ./runproxypool
+          timeout 5h ./runproxypool -c ./config/config.yaml
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
