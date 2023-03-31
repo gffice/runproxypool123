@@ -20,7 +20,7 @@ jobs:
     - name: pull
       run: |
         #rm -r ./proxypool/
-        git clone https://github.com/ssrlive/proxypool.git
+        git clone https://github.com/gffice/runproxypool.git
     #- name: chmod
       #run: |
         #chmod 777 debug-github-actions.sh
@@ -33,17 +33,17 @@ jobs:
 
     - name: 构建
       run: |
-         cd ./proxypool
+         cd ./runproxypool
          go get
          go build
 
     - name: rm
       run: |
-         rm -rf ./proxypool/config
+         rm -rf ./runproxypool/config
     - name: Cache Primes
       id: cache-proxypool
       uses: actions/cache@v3
       with:
-        path: ./proxypool
+        path: ./runproxypool
         key: ${{ runner.os }}-proxypool
 
