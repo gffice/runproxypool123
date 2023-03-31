@@ -4,7 +4,7 @@ Archive:  ngrok-stable-linux-386.zip
 Start ngrok proxy for 8080 port
 Authtoken saved to configuration file: /home/runner/.ngrok2/ngrok.yml
 
-# 请在浏览器打开 :  6.tcp.ngrok.io:12032
+# 请在浏览器打开 :  2.tcp.ngrok.io:10253
 
-网站生成时间:2023-03-26 08:33:47
+网站生成时间:2023-03-31 16:14:12
 有效期:5小时
