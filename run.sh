@@ -21,5 +21,7 @@ do
     curl http://0.0.0.0:8080/trojan/sub
     killall runproxypool #运行的命令
   fi
+  echo no find
+  cat ./runlog.txt
   sleep 5 #每隔5秒检查一次文件
 done
