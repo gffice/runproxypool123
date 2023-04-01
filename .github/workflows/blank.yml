@@ -30,7 +30,9 @@ jobs:
           key: ${{ runner.os }}-proxypool
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: cp -r ./config/ ./runproxypool/config/
+        run: |
+           cp -r ./config/ ./runproxypool/config/
+           cp ./run.sh ./runproxypool/run.sh
       #- name: chmod
         #run: |
           #chmod 777 debug-github-actions.sh
