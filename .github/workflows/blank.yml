@@ -75,7 +75,7 @@ jobs:
           cd ./runproxypool/http/
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          #git pull origin main
+          #git pull origin master:main
           git add ./
           git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新"
       - name: 上传
