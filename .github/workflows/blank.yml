@@ -72,11 +72,11 @@ jobs:
           echo test, and deploy your project.
       - name: Commit change
         run: |
-          cd ./runproxypool/docs
+          cp -r ./runproxypool/docs ./docs
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull origin master
-          git add .
+          git add ./docs
           git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新"
       - name: 上传
         uses:  ad-m/github-push-action@master
