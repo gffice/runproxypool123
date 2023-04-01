@@ -74,12 +74,12 @@ jobs:
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git pull origin master
+          #git pull origin main
           git add ./runproxypool/http/
           git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新"
       - name: 上传
         uses:  ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PULL_TOKEN }}
-          branch: master
+          branch: main
           repository: 'gffice.github.io'
