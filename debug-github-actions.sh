@@ -25,7 +25,7 @@ echo "Start ngrok proxy for 8080 port"
 
 rm -f .ngrok.log
 ./ngrok authtoken "$NGROK_TOKEN"
-./ngrok tcp 8080 --log ".ngrok.log" &
+./ngrok http 8080 --log ".ngrok.log" &
 
 sleep 10
 HAS_ERRORS=$(grep "command failed" < .ngrok.log)
