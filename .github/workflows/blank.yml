@@ -60,10 +60,23 @@ jobs:
         run: |
           cd ./runproxypool
           chmod 777 ./runproxypool
+          chmod 777 ./run.sh
           timeout 5h ./runproxypool -c ./config/config.yaml >> runlog.txt &
-
+          ./run.sh
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+      - name: Commit change
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git pull origin master
+          git add ./runproxypool/http/
+          git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新"
+      - name: 上传
+        uses:  ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
