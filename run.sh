@@ -1,7 +1,7 @@
 #!/bin/bash
 while true
 do
-  if grep -Fxq "Usablility checking done" ./runlog.txt
+  if grep -Fxq "100.0% DONE" ./runlog.txt
   then
     sleep 30
     mkdir http
