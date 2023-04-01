@@ -8,8 +8,8 @@ while ! grep -q "Usablility" runlog.txt; do
 done
 echo "检测到指定内容，即将执行命令。"
 sleep 10
-mkdir http
-cd http
+mkdir docs
+cd docs
 mkdir clash
 mkdir shadowrocket
 mkdir surge
