@@ -83,4 +83,4 @@ jobs:
         with:
           github_token: ${{ secrets.PULL_TOKEN }}
           branch: main
-          repository: 'gffice.github.io'
+          repository: 'gffice/gffice.github.io'
