@@ -1,5 +1,5 @@
 # your domain
-domain: 0.0.0.0   # or example.com:9443 for reserve proxy server
+domain: gffice.github.io/runproxypool123/   # or example.com:9443 for reserve proxy server
 port: 8080                # default 12580
 
 # source list file
@@ -15,7 +15,7 @@ source-files:
 database_url: ""
 
 #==== Interval between each crawling ====#
-crawl-interval: 15            # v0.5.x default 60 (minutes)
+crawl-interval: 60            # v0.5.x default 60 (minutes)
 #crontime:                  # v0.4.x default 60 (minutes). Deprecated in the newest version
 healthcheck-timeout:        # default 5 (seconds)
 healthcheck-connection: 5000    # default 500. The number of health check connections simultaneously
