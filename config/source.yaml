@@ -28,6 +28,76 @@
   options:
     channel: juzibaipiao
     num: 500
+    
+- type: tgchannel
+  options:
+    channel: FreeZH
+    num: 500
+ 
+- type: tgchannel
+  options:
+    channel: tgvpn8
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: wxgmrjdcc
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: souqun8816
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: TGvpn6
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: jiedian_share
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: sola114514
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: baobaojiedian
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: zerobaipiao
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: suyucom
+    num: 500
+    
+- type: tgchannel
+  options:
+    channel: FreeV2rays
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: fenxbaip1024
+    num: 500
+
+- type: tgchannel
+  options:
+    channel: fenxbaip1024
+    num: 500
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
