@@ -8,6 +8,10 @@
   options:
     url: https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray
 
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/fuserh/GoodFreeProxies/master/sub/sub_merge_base64.txt
+
 # 网页模糊抓取
 - type: webfuzz
   options:
