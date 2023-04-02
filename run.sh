@@ -17,6 +17,10 @@ mkdir ss
 mkdir sip002
 mkdir vmess
 mkdir trojan
+mkdir static
+mkdir clash/static
+mkdir shadowrocket/static
+mkdir surge/static
 curl -o index.html http://0.0.0.0:8080/
 curl -o ./clash/index.html http://0.0.0.0:8080/clash
 curl -o ./clash/config http://0.0.0.0:8080/clash/config
