@@ -86,7 +86,7 @@ jobs:
       - name: Commit change
         run: |
           rm -r ./docs
-          mv -r ./runproxypool/docs ./docs
+          mv ./runproxypool/docs ./docs
           mv ./runproxypool/runlog.txt ./runlog.txt
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
