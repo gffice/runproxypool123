@@ -1,5 +1,5 @@
 # your domain
-domain: gffice.github.io/runproxypool123/   # or example.com:9443 for reserve proxy server
+domain: gffice.github.io/runproxypool123   # or example.com:9443 for reserve proxy server
 port: 8080                # default 12580
 
 # source list file
