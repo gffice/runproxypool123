@@ -6,6 +6,8 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   # Allows you to run this workflow manually from the Actions tab
+  schedule:
+    - cron: '0 */2 * * *'
   workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -73,10 +75,12 @@ jobs:
       - name: Commit change
         run: |
           cp -r ./runproxypool/docs ./docs
+          mv ./runproxypool/runlog.txt ./runlog.txt
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git pull origin master
           git add ./docs
+          git add ./runlog.txt
           git commit -m "在$(date '+%Y-%m-%d %H:%M:%S')自动更新"
       - name: 上传
         uses:  ad-m/github-push-action@master
