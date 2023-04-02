@@ -37,6 +37,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: |
+           if [ -d "./runproxypool/config/" ]
+            then
+           #执行需要执行的命令
+           echo "文件夹已经存在。命令将在此处执行。"
+           rm -r ./runproxypool/config/
+           fi
            cp -r ./config/ ./runproxypool/config/
            cp ./run.sh ./runproxypool/run.sh
       #- name: chmod
@@ -80,7 +86,7 @@ jobs:
       - name: Commit change
         run: |
           rm -r ./docs
-          cp -r ./runproxypool/docs ./docs
+          mv -r ./runproxypool/docs ./docs
           mv ./runproxypool/runlog.txt ./runlog.txt
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
