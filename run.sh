@@ -30,4 +30,8 @@ curl -o ./sip002/sub http://0.0.0.0:8080/sip002/sub
 curl -o ./ssr/sub http://0.0.0.0:8080/ssr/sub
 curl -o ./vmess/sub http://0.0.0.0:8080/vmess/sub
 curl -o ./trojan/sub http://0.0.0.0:8080/trojan/sub
+curl -o ./static/index.js http://0.0.0.0:8080/static/index.js
+cp ./static/index.js ./clash/static/index.js
+cp ./static/index.js ./shadowrocket/static/index.js
+cp ./static/index.js ./surge/static/index.js
 killall runproxypool #运行的命令
