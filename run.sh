@@ -7,7 +7,7 @@ while ! grep -q "Usablility" runlog.txt; do
   sleep 5
 done
 echo "检测到指定内容，即将执行命令。"
-sleep 10
+sleep 60
 mkdir docs
 cd docs
 mkdir clash
@@ -39,4 +39,5 @@ wget -O ./static/index.js http://0.0.0.0:8080/static/index.js
 cp ./static/index.js ./clash/static/index.js
 cp ./static/index.js ./shadowrocket/static/index.js
 cp ./static/index.js ./surge/static/index.js
+sleep 60
 killall runproxypool #运行的命令
