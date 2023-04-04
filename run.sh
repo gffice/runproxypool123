@@ -14,6 +14,7 @@ mkdir clash
 mkdir shadowrocket
 mkdir surge
 mkdir ss
+mkdir ssr
 mkdir sip002
 mkdir vmess
 mkdir trojan
@@ -21,20 +22,20 @@ mkdir static
 mkdir clash/static
 mkdir shadowrocket/static
 mkdir surge/static
-curl -o index.html http://0.0.0.0:8080/
-curl -o ./clash/index.html http://0.0.0.0:8080/clash
-curl -o ./clash/config http://0.0.0.0:8080/clash/config
-curl -o ./clash/proxies http://0.0.0.0:8080/clash/proxies
-curl -o ./shadowrocket/index.html http://0.0.0.0:8080/shadowrocket
-curl -o ./surge/config http://0.0.0.0:8080/surge/config
-curl -o ./surge/index.html http://0.0.0.0:8080/surge
-curl -o ./surge/proxies http://0.0.0.0:8080/surge/proxies
-curl -o ./ss/sub http://0.0.0.0:8080/ss/sub
-curl -o ./sip002/sub http://0.0.0.0:8080/sip002/sub
-curl -o ./ssr/sub http://0.0.0.0:8080/ssr/sub
-curl -o ./vmess/sub http://0.0.0.0:8080/vmess/sub
-curl -o ./trojan/sub http://0.0.0.0:8080/trojan/sub
-curl -o ./static/index.js http://0.0.0.0:8080/static/index.js
+wget -O index.html http://0.0.0.0:8080/
+wget -O ./clash/index.html http://0.0.0.0:8080/clash
+wget -O ./clash/config http://0.0.0.0:8080/clash/config
+wget -O ./clash/proxies http://0.0.0.0:8080/clash/proxies
+wget -O ./shadowrocket/index.html http://0.0.0.0:8080/shadowrocket
+wget -O ./surge/config http://0.0.0.0:8080/surge/config
+wget -O ./surge/index.html http://0.0.0.0:8080/surge
+wget -O ./surge/proxies http://0.0.0.0:8080/surge/proxies
+wget -O ./ss/sub http://0.0.0.0:8080/ss/sub
+wget -O ./sip002/sub http://0.0.0.0:8080/sip002/sub
+wget -O ./ssr/sub http://0.0.0.0:8080/ssr/sub
+wget -O ./vmess/sub http://0.0.0.0:8080/vmess/sub
+wget -O ./trojan/sub http://0.0.0.0:8080/trojan/sub
+wget -O ./static/index.js http://0.0.0.0:8080/static/index.js
 cp ./static/index.js ./clash/static/index.js
 cp ./static/index.js ./shadowrocket/static/index.js
 cp ./static/index.js ./surge/static/index.js
