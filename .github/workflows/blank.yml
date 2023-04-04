@@ -45,6 +45,7 @@ jobs:
            fi
            cp -r ./config/ ./runproxypool/config/
            cp ./run.sh ./runproxypool/run.sh
+           rm -r ./docs
       #- name: chmod
         #run: |
           #chmod 777 debug-github-actions.sh
@@ -85,7 +86,7 @@ jobs:
           ls -R
       - name: Commit change
         run: |
-          rm -r ./docs
+          #rm -r ./docs
           mv ./runproxypool/docs ./docs
           mv ./runproxypool/runlog.txt ./runlog.txt
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
