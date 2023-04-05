@@ -30,7 +30,7 @@ speed-connection:           # v0.7.2 default 5. The number of speed test connect
 #==== Active proxy speed test ====#
 active-interval:            # default 60 (min)
 active-frequency:           # default 100 (requests per interval)
-active-max-number:          # default 100. If more than this number of active proxies, the extra will be deprecated by speed
+active-max-number: 5000         # default 100. If more than this number of active proxies, the extra will be deprecated by speed
 
 #==== Cloudflare api ====#
 cf_email: ""
