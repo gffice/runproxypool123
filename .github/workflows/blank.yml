@@ -101,3 +101,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
           #repository: 'gffice/gffice.github.io'
+      - name: Upload artifact # 上传构建产物，这里我们的源码目录是 src，而实际运行的代码是构建后的 bin 目录
+        uses: actions/upload-artifact@v2
+        with:
+          name: docs
+          path: ./docs
