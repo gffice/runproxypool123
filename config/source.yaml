@@ -103,6 +103,28 @@
     channel: fenxbaip1024
     num: 500
 
+- type: tgchannel
+  options:
+    channel: proxyshareCN
+    num: 800
+    
+- type: tgchannel
+  options:
+    channel: jiedian_share
+    num: 800
+
+- type: tgchannel
+  options:
+    channel: heinuhome
+    num: 500
+    
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 500
+
+
+
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
   options:
