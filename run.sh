@@ -37,6 +37,7 @@ wget -O ./vmess/sub http://0.0.0.0:8080/vmess/sub
 wget -O ./trojan/sub http://0.0.0.0:8080/trojan/sub
 wget -O ./static/index.js http://0.0.0.0:8080/static/index.js
 cp ../jquery.js ./jquery.js
+cp ../index.js ./index.js
 cp ../index.css ./index.css
 cp ../metron-icon.css ./metron-icon.css
 cp ./static/index.js ./clash/static/index.js
