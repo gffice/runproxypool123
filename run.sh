@@ -36,10 +36,12 @@ wget -O ./ssr/sub http://0.0.0.0:8080/ssr/sub
 wget -O ./vmess/sub http://0.0.0.0:8080/vmess/sub
 wget -O ./trojan/sub http://0.0.0.0:8080/trojan/sub
 wget -O ./static/index.js http://0.0.0.0:8080/static/index.js
-cp ../jquery.js ./jquery.js
-cp ../index.js ./index.js
-cp ../index.css ./index.css
-cp ../metron-icon.css ./metron-icon.css
+cd ..
+cp ./jquery.js ./docs/jquery.js
+cp ./index.js ./docs/index.js
+cp ./index.css ./docs/index.css
+cp ./metron-icon.css ./docs/metron-icon.css
+cd docs
 cp ./static/index.js ./clash/static/index.js
 cp ./static/index.js ./shadowrocket/static/index.js
 cp ./static/index.js ./surge/static/index.js
