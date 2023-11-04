@@ -91,12 +91,7 @@
 - type: tgchannel
   options:
     channel: FreeV2rays
-    num: 500
-
-- type: tgchannel
-  options:
-    channel: fenxbaip1024
-    num: 500
+    num: 800
 
 - type: tgchannel
   options:
@@ -123,7 +118,15 @@
     channel: mftizi
     num: 500
 
+- type: tgchannel
+  options:
+    channel: ZDYZ2
+    num: 500
 
+- type: tgchannel
+  options:
+    channel: aifenxiang2020
+    num: 500
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
