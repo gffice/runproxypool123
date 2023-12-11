@@ -1,255 +1,249 @@
 🇦🇺AU_02 = vmess, 91.149.236.70, 59638, username=9fcec31d-40aa-4f98-8c47-0296084fe3ff, tls=false
-Pool_🇧🇪BE_03 = vmess, 37.120.236.251, 443, username=ed162daa-ee20-44ed-830f-b522c501387a, ws=true, tls=true, ws-path=/path/143013092425, ws-headers=HOST:www.42088326.xyz
-🇨🇦CA_04 = ss, 66.103.199.2, 56271, encrypt-method=aes-256-gcm, password=kKKLUkNaMA, udp-relay=false
+🇧🇪BE_03 = vmess, 37.120.236.251, 443, username=ed162daa-ee20-44ed-830f-b522c501387a, ws=true, tls=true, ws-path=/path/143013092425, ws-headers=HOST:www.42088326.xyz
+🇨🇦CA_04 = ss, 104.234.202.187, 24422, encrypt-method=aes-256-gcm, password=qw7lnQ2zj3, udp-relay=false
 🇨🇦CA_05 = ss, 134.195.196.178, 807, encrypt-method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, udp-relay=false
-🇨🇦CA_06 = ss, 104.234.202.187, 24422, encrypt-method=aes-256-gcm, password=qw7lnQ2zj3, udp-relay=false
-🇨🇦CA_07 = vmess, 142.171.229.164, 13469, username=3b77a115-0e8a-4939-e64c-f13994942c2e, tls=false
-🇨🇭CH_08 = vmess, 136.0.9.8, 15139, username=ca13f999-6ac7-4b49-ed57-cf6abcd371e0, ws=true, tls=false, ws-path=/
+🇨🇦CA_06 = vmess, 142.171.229.164, 13469, username=3b77a115-0e8a-4939-e64c-f13994942c2e, tls=false
+🇨🇭CH_07 = vmess, 136.0.9.8, 15139, username=ca13f999-6ac7-4b49-ed57-cf6abcd371e0, ws=true, tls=false, ws-path=/
+🇨🇭CH_08 = vmess, krse10.ip8.shop, 25361, username=a5de5eb3-5760-488a-9211-e5fbd9388905, tls=false
 🇨🇭CH_09 = vmess, 136.0.9.215, 17947, username=7534fa30-66be-4c81-ec77-34769f9aaaae, ws=true, tls=false, ws-path=/
-🇨🇭CH_10 = vmess, 136.0.9.89, 45988, username=f875afcb-d9b7-4765-f34b-86e99c8827ac, ws=true, tls=false, ws-path=/
-🇨🇭CH_11 = vmess, 136.0.9.164, 40767, username=6a63a298-9541-4c34-d809-f3af62832462, ws=true, tls=false, ws-path=/
-Relay_🇨🇭CH-🇨🇭CH_12 = vmess, krse10.ip8.shop, 25361, username=a5de5eb3-5760-488a-9211-e5fbd9388905, tls=false
-🇨🇳CN_13 = ss, music.desperadoj.com, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, udp-relay=false
-🇨🇳CN_14 = ss, 43.156.241.221, 10000, encrypt-method=aes-256-gcm, password=123, udp-relay=false
-🇨🇳CN_15 = ss, 43.156.237.238, 10000, encrypt-method=aes-256-gcm, password=123, udp-relay=false
-🇨🇳CN_16 = ss, music.desperadoj.com, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, udp-relay=false
-🇨🇳CN_33 = vmess, iplc01.my1188.org, 3184, username=fe0346d9-a972-3d8a-bac7-310604fa108f, tls=true
-🇨🇳CN_34 = vmess, 183.240.232.93, 34001, username=418048af-a293-4b99-9b0c-98ca3580dd24, tls=false
-Relay_🇨🇴CO-🇺🇸US_35 = vmess, 188.114.96.7, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:octavi.cfd
-Relay_🇨🇴CO-🏁ZZ_36 = vmess, 188.114.97.3, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:oliv.beauty
-Relay_🇨🇴CO-🇨🇦CA_37 = vmess, 188.114.98.0, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:odelia.autos
-🇩🇪DE_38 = ss, 45.82.167.133, 28399, encrypt-method=aes-256-gcm, password=admin, udp-relay=false
-🇩🇪DE_39 = vmess, 79.132.128.60, 21524, username=839102ad-842f-43e5-e589-ac10a3c78571, ws=true, tls=false, ws-path=/
-🇩🇪DE_40 = vmess, 172.104.240.196, 18924, username=2e96758e-8e77-47e1-8ca9-111892605b3a, tls=false
-🇩🇪DE_41 = vmess, 195.201.44.114, 57565, username=2f39acb4-87d5-498e-feaf-d3733f7894be, tls=false
-🇫🇷FR_44 = ss, 145.239.1.100, 5601, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_45 = ss, 54.36.174.181, 5000, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_46 = ss, 54.36.174.181, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
-Pool_🇫🇷FR_47 = ss, 51.158.195.96, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-Relay_🇫🇷FR-🇫🇷FR_48 = ss, ak1732.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
-🇫🇷FR_49 = ss, 62.210.88.164, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-🇫🇷FR_50 = ss, 145.239.1.100, 8888, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_51 = ss, 145.239.1.100, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇫🇷FR_52 = ss, 54.36.174.181, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_53 = ss, 54.36.174.181, 9102, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY, udp-relay=false
-🇫🇷FR_54 = ss, 54.36.174.181, 8881, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4, udp-relay=false
-Pool_🇫🇷FR_55 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-🇫🇷FR_56 = ss, 149.202.82.172, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-Relay_🇫🇷FR-🇫🇷FR_57 = ss, 135.125.172.153, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-🇫🇷FR_58 = ss, 54.36.174.181, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_59 = ss, 149.202.82.172, 6697, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
-🇫🇷FR_60 = ss, 54.36.174.181, 7002, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG, udp-relay=false
-Relay_🇫🇷FR-🇫🇷FR_61 = ss, 135.125.172.139, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-🇫🇷FR_62 = ss, 54.36.174.181, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
-🇫🇷FR_63 = ss, 54.36.174.181, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_64 = ss, 54.36.174.181, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇫🇷FR_65 = ss, 54.36.174.181, 8008, encrypt-method=aes-256-gcm, password=XKFKl2rULjIp74, udp-relay=false
-🇫🇷FR_66 = ss, 54.36.174.181, 8118, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
-Relay_🇫🇷FR-🇫🇷FR_67 = ss, ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇫🇷FR_68 = ss, 149.202.82.172, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇫🇷FR_69 = ss, 145.239.1.100, 8882, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4, udp-relay=false
-🇬🇧GB_71 = ss, 212.102.53.80, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
-🇬🇧GB_72 = vmess, 144.24.88.101, 16833, username=f5425ccf-3946-4fb4-eb24-5393d78a392f, tls=false
-🇬🇧GB_73 = vmess, 172.99.190.109, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws
-🇭🇰HK_74 = ss, 47.57.232.119, 2119, encrypt-method=aes-256-gcm, password=3B9vFTBSlp, udp-relay=false
-🇭🇰HK_75 = ss, 47.243.108.41, 10841, encrypt-method=aes-256-gcm, password=rUx8mqUsI0, udp-relay=false
-🇭🇰HK_76 = ss, 47.242.177.168, 32259, encrypt-method=aes-128-gcm, password=HOUyi530, udp-relay=false
-🇭🇰HK_77 = ss, 47.242.254.199, 10625, encrypt-method=aes-256-gcm, password=GxgwgsEqrM, udp-relay=false
-🇭🇰HK_78 = ss, 8.210.231.146, 1146, encrypt-method=aes-256-gcm, password=jmtgsmW40R, udp-relay=false
-🇭🇰HK_79 = vmess, 165.154.161.120, 55318, username=2fd62cbc-2ad2-498e-b330-e395c7260df4, tls=false
-🇭🇰HK_80 = vmess, 115.126.50.111, 16399, username=0a824660-8b17-4665-d2b4-a86c7f15d32a, tls=false
-🇮🇳IN_84 = vmess, 103.114.201.143, 59487, username=51fb562e-0a9b-4c27-e4d8-6f4883bb5165, tls=false
-🇮🇳IN_85 = vmess, 103.113.68.233, 80, username=fddb3781-7e15-4731-a933-94db110b4bbc, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:103.113.68.233
-Relay_🇮🇷IR-🇮🇷IR_86 = vmess, 158.58.188.21, 49986, username=dafda19e-ae62-4cb4-ae56-2f5b343feb0b, ws=true, tls=false, ws-path=/
-🇮🇷IR_87 = vmess, 37.152.186.109, 31341, username=9d379161-cbeb-4ef6-f023-ca174175ea62, ws=true, tls=false, ws-path=/
-🇯🇵JP_88 = ss, 185.172.113.182, 800, encrypt-method=chacha20-ietf-poly1305, password=G!yBwPWH3Vao, udp-relay=false
-Relay_🇯🇵JP-🇯🇵JP_89 = ss, tg_mfbpn_ahk2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇯🇵JP_90 = ss, 18.181.212.131, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇯🇵JP_91 = vmess, 140.83.63.38, 24445, username=94c5ef37-4d82-49f9-c624-f01259374a17, tls=false
-🇰🇷KR_92 = ss, 13.125.30.161, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇰🇷KR_93 = ss, 183.110.194.4, 9988, encrypt-method=aes-256-gcm, password=12345678, udp-relay=false
-Relay_🇰🇷KR-🇰🇷KR_94 = ss, tg_mfbpn_ajp1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-Relay_🇰🇷KR-🇰🇷KR_95 = ss, tg_mfbpn_ajp2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-Relay_🇰🇷KR-🇰🇷KR_96 = ss, tg_mfbpn_atw1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇰🇷KR_97 = ss, 3.38.106.136, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇲🇩MD_111 = vmess, cz1-vmess.sshmax.xyz, 2082, username=d466dd36-8b86-48b7-b0f0-67e7d128de6c, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:cz1-vmess.sshmax.xyz
-🇲🇾MY_112 = vmess, 103.159.132.59, 46923, username=198add4a-25eb-4340-c28e-b960a2558cda, tls=false
-🇳🇱NL_113 = ss, 5.181.21.19, 8388, encrypt-method=chacha20-ietf-poly1305, password=Njk2Nzcy, udp-relay=false
-Relay_🇳🇱NL-🇨🇦CA_114 = vmess, 130.162.154.209, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=/ophelia.mom:443/linkvws, ws-headers=HOST:cf.tonyluk.link
-🇷🇺RU_115 = ss, 212.113.106.243, 12949, encrypt-method=chacha20-ietf-poly1305, password=P2zxXPewlV3BlfqqYiSthvtLc, udp-relay=false
-🇷🇺RU_116 = ss, 91.194.161.7, 8388, encrypt-method=chacha20-ietf-poly1305, password=OWJlYjYy, udp-relay=false
-🇷🇺RU_117 = ss, 185.231.205.80, 1443, encrypt-method=chacha20-ietf-poly1305, password=MGQwNTgw, udp-relay=false
-🇷🇺RU_118 = vmess, 46.29.166.237, 47555, username=0c49cd19-2758-4d38-e6a8-11f2d6635860, tls=false
-🇷🇺RU_119 = vmess, 46.29.166.124, 47412, username=291a5c6a-447e-4fc7-b3d7-28ebec5cbcd7, tls=false
-Pool_🇸🇪SE_120 = ss, 195.181.166.176, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
-🇸🇪SE_121 = vmess, 148.135.72.169, 8080, username=e514c3c9-703d-4e94-e71f-73f9f34897ec, ws=true, tls=false, ws-path=/
-🇸🇬SG_122 = ss, 13.215.194.232, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇸🇬SG_123 = ss, 8.219.180.58, 36124, encrypt-method=aes-256-gcm, password=B7O79XQdWI, udp-relay=false
-🇸🇬SG_124 = vmess, 8.219.240.120, 32969, username=95249020-fbb7-4592-efce-6ad3954c3fad, tls=false
-🇸🇬SG_125 = vmess, 43.131.62.103, 666, username=11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, tls=false
-🇸🇬SG_126 = vmess, 8.219.59.222, 46998, username=5c9bed1a-716b-43e7-c807-9e0758186360, ws=true, tls=false, ws-path=/
-🇹🇼TW_127 = ss, 103.158.74.24, 8881, encrypt-method=aes-128-gcm, password=c44b01a6-2a53-4913-95e2-8df1f61869f7, udp-relay=false
-🇹🇼TW_128 = vmess, 45.121.48.172, 10001, username=dba51a2e-a788-43b7-9ac4-9f7cc1255f15, tls=false
-🇹🇼TW_129 = vmess, 45.121.48.193, 10001, username=420026d3-474b-47e3-b26b-23a22aa1f4f4, tls=false
-🇹🇼TW_130 = vmess, 103.159.206.35, 31945, username=e2e511b0-7def-4e1b-d238-6cb5391b2e3f, ws=true, tls=false, ws-path=/
-Relay_🇹🇼TW-🇹🇼TW_131 = vmess, b24.ntbq.dynu.net, 443, username=445405e7-8cb2-4a0f-be48-7714c8f233e2, ws=true, tls=true, ws-path=/b24, ws-headers=HOST:b24.ntbq.dynu.net
-Relay_🇹🇼TW-🇹🇼TW_132 = vmess, b21.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b21, ws-headers=HOST:b21.ntbq.dynu.net
-Relay_🇹🇼TW-🇹🇼TW_133 = vmess, b23.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b23
-🇹🇼TW_134 = vmess, b22.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b22, ws-headers=HOST:b22.ntbq.dynu.net
-🇺🇦UA_136 = ss, 95.164.44.21, 8388, encrypt-method=chacha20-ietf-poly1305, password=OTI5ZDhk, udp-relay=false
-🇺🇦UA_137 = ss, 89.185.31.107, 29524, encrypt-method=aes-256-gcm, password=COCA2quJLg, udp-relay=false
-🇺🇸US_138 = ss, 142.202.48.99, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_139 = ss, 38.75.137.9, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_140 = ss, 50.114.159.250, 6666, encrypt-method=aes-256-gcm, password=bI51Uc7CL6, udp-relay=false
-🇺🇸US_141 = ss, 167.88.61.175, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_142 = ss, 35.87.39.181, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_143 = ss, 38.75.137.66, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_144 = ss, 38.75.137.71, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_145 = ss, 38.68.135.239, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_146 = ss, 167.88.63.71, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_147 = ss, 167.88.63.71, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_148 = ss, 38.68.134.69, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_149 = ss, 167.88.63.71, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_150 = ss, 38.68.134.69, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_151 = ss, 38.91.101.221, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_152 = ss, 43.200.6.19, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_153 = ss, 38.121.43.51, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_154 = ss, 167.88.63.71, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, udp-relay=false
-🇺🇸US_155 = ss, 38.75.137.71, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
-🇺🇸US_156 = ss, 94.131.12.58, 26669, encrypt-method=chacha20-ietf-poly1305, password=B0ry56X2AxfFgcgI7sHDWD, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_157 = ss, tg_mfbpn_akr1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_158 = ss, 43.201.5.239, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_159 = ss, 38.75.137.9, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇺🇸US_160 = ss, 38.54.104.17, 18808, encrypt-method=aes-256-gcm, password=UEZLKj26tx, udp-relay=false
-🇺🇸US_161 = ss, 43.201.253.32, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_162 = ss, 43.200.253.6, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_163 = ss, tg_mfbpn_asg2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_164 = ss, 38.68.135.239, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_165 = ss, 43.207.86.238, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_166 = ss, 38.75.137.71, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_167 = ss, 38.75.137.71, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_168 = ss, 38.143.66.187, 9101, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY, udp-relay=false
-🇺🇸US_169 = ss, 167.88.61.204, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_170 = ss, 43.201.104.144, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_171 = ss, tg_mfbpn_atw2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_172 = ss, 167.88.61.175, 9102, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY, udp-relay=false
-🇺🇸US_173 = ss, 172.99.188.99, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_174 = ss, 167.88.61.204, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_175 = ss, 38.68.134.69, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_176 = ss, 38.68.134.69, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_177 = ss, 142.202.48.43, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_178 = ss, 167.88.63.71, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_179 = ss, tg_mfbpn_ahk1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_180 = ss, 142.202.48.43, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_181 = ss, 167.88.63.71, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_182 = ss, 142.202.48.99, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_183 = ss, tg_mfbpn_asg1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_184 = ss, 38.105.25.23, 8881, encrypt-method=aes-128-gcm, password=576da2e7-e517-49f3-a3ea-c2efb1f4a213, udp-relay=false
-🇺🇸US_185 = ss, 167.88.61.175, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇺🇸US_186 = ss, 38.75.137.71, 8000, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇺🇸US_187 = ss, 167.88.63.71, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_188 = ss, tg_mfbpn_aus2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
-🇺🇸US_189 = ss, 167.88.61.175, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_190 = ss, 38.75.137.71, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_191 = ss, 38.75.137.71, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇺🇸US_192 = ss, 167.88.61.175, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
-🇺🇸US_193 = ss, 64.31.55.5, 11223, encrypt-method=aes-256-gcm, password=dongtaiwang.com, udp-relay=false
-🇺🇸US_194 = ss, 142.202.48.43, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_195 = ss, 142.202.48.43, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
-🇺🇸US_196 = ss, 38.75.137.9, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_197 = ss, 38.91.101.221, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_198 = ss, 38.75.137.71, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_199 = ss, 167.88.63.71, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_200 = ss, 38.75.136.49, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_201 = ss, 167.88.61.204, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, udp-relay=false
-🇺🇸US_202 = ss, 167.88.61.204, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_203 = ss, 142.202.48.43, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_204 = ss, 38.75.137.66, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_205 = ss, 142.202.48.43, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_206 = ss, 167.88.63.71, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_207 = ss, 38.75.137.9, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_208 = ss, 167.88.63.71, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_209 = ss, 167.88.61.175, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_210 = ss, 38.75.137.9, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
-🇺🇸US_211 = ss, 38.75.137.71, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_212 = ss, 142.202.48.99, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_213 = ss, 38.68.134.69, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_214 = ss, 129.146.102.22, 34017, encrypt-method=aes-256-gcm, password=N0k6tSWblI, udp-relay=false
-🇺🇸US_215 = ss, 45.58.39.13, 58428, encrypt-method=aes-256-gcm, password=31LdYhP8Ae, udp-relay=false
-🇺🇸US_216 = ss, 38.75.136.49, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
-🇺🇸US_217 = ss, 38.75.137.71, 5601, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_218 = ss, 38.68.134.69, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
-🇺🇸US_219 = ss, 38.54.104.184, 18808, encrypt-method=aes-256-gcm, password=wwq6Xo5gJ8, udp-relay=false
-🇺🇸US_220 = ss, 38.91.101.221, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_221 = ss, 38.68.135.239, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-🇺🇸US_222 = ss, 38.75.137.66, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
-🇺🇸US_223 = ss, 38.68.134.69, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
-Relay_🇺🇸US-🇺🇸US_225 = vmess, 198.23.254.24, 43380, username=120dfc06-593d-4b80-a299-0f03e800e307, tls=false
-🇺🇸US_226 = vmess, n1701761456.gxpnmtg.cn, 443, username=bce406ed-1435-4afd-bb81-54ee21b696a7, ws=true, tls=true, ws-path=/
-Relay_🇺🇸US-🇨🇦CA_227 = vmess, 172.67.229.25, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
-Relay_🇺🇸US-🇺🇸US_228 = vmess, 38.54.185.112, 30000, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=true, tls=true, ws-path=/path/1701091133409, ws-headers=HOST:www.73664999.xyz
-🇺🇸US_229 = vmess, 64.176.42.137, 20886, username=f574b237-3ebf-405c-d540-541530fe5ed7, tls=false
-🇺🇸US_230 = vmess, 172.234.17.31, 48771, username=f1c2be64-961b-407a-c4e0-b8919ca1253b, tls=false
-Relay_🇺🇸US-🇨🇦CA_231 = vmess, cloudconebbb.gorgorchicken.one, 8443, username=aa0c4744-9568-4bee-a08b-73668a9b2a42, ws=true, tls=true, ws-path=/cloudconebbb
-Relay_🇺🇸US-🇺🇸US_232 = vmess, cdnjs.com, 443, username=2F094845-E2BD-EBF7-DEB7-995992436FAF, ws=true, tls=true, ws-path=/speedtest, ws-headers=HOST:Kansas.kotick.site
-Relay_🇺🇸US-🇨🇦CA_233 = vmess, 14.vmessprotocol.telegram-vmessprotocol-channel.space, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
-Relay_🇺🇸US-🇨🇦CA_234 = vmess, 172.67.229.34, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
-Relay_🇺🇸US-🇺🇸US_235 = vmess, us-fsl.jikuai.xyz, 8443, username=70666776-4e9f-4350-b3f0-afaff6a70db0, ws=true, tls=true, ws-path=/user, ws-headers=HOST:us-fsl.jikuai.xyz
-Relay_🇺🇸US-🇫🇷FR_236 = vmess, 172.67.229.31, 8880, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr7.tehme100.fun
-Relay_🇺🇸US-🇬🇧GB_237 = vmess, cc3.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:cc3.shabijichang.com
-🇺🇸US_238 = vmess, 38.54.104.191, 54033, username=4e67a298-bf2e-4211-bc9a-dccd0fe3320d, ws=true, tls=false, ws-path=/
-🇺🇸US_239 = vmess, 152.69.197.60, 1069, username=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, tls=false
-🇺🇸US_240 = vmess, 205.164.28.103, 13487, username=f5502283-53ba-442b-bdb1-a25745fd5c17, tls=false
-Relay_🇺🇸US-🇫🇷FR_241 = vmess, 172.67.229.30, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
-🇺🇸US_242 = vmess, 38.147.165.244, 8081, username=757e9b90-7ea0-445d-f95f-ed3cec661b58, tls=false
-Relay_🇺🇸US-🇫🇷FR_243 = vmess, 172.67.229.11, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
-Relay_🇺🇸US-🇫🇷FR_244 = vmess, 172.67.229.29, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
-Relay_🇺🇸US-🇫🇷FR_245 = vmess, 172.67.229.38, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
-Relay_🇺🇸US-🇫🇷FR_246 = vmess, 172.67.229.12, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
-🇺🇸US_247 = vmess, 64.176.59.68, 59350, username=5821ac21-8e3f-4c8b-832d-a55190c944e9, tls=false
-🇺🇸US_248 = vmess, 162.251.62.115, 22324, username=04621bae-ab36-11ec-b909-0242ac120002, tls=false
-Relay_🇺🇸US-🇨🇦CA_249 = vmess, 104.31.16.28, 80, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca4.tehme2.fun
-🇺🇸US_250 = vmess, 47.88.87.39, 80, username=18351862-d953-4ab9-afae-4998dcd56f8b, ws=true, tls=false, ws-path=/wRDYyXAgH6oASzMKs65VUYw
-🇺🇸US_251 = vmess, 158.101.7.8, 80, username=95b45c49-f5c0-4959-bb64-2b8fbc4a869c, ws=true, tls=false, ws-path=/
-🇺🇸US_252 = vmess, 64.176.58.15, 46154, username=adcbe160-3010-483d-b438-d6057f465b1d, tls=false
-🇺🇸US_253 = vmess, 80.92.205.112, 443, username=4c90ba75-230b-4f8b-bbff-8efa0eb0415f, ws=true, tls=false, ws-path=/
-Relay_🇺🇸US-🇺🇸US_254 = vmess, usd.yj2022.gq, 8880, username=4b5e4565-322f-4223-a891-78a84f189726, ws=true, tls=false, ws-path=/XSjeg73o6ZdsheahCb5JG, ws-headers=HOST:usd.yj2022.gq
-🇺🇸US_255 = vmess, 38.180.33.136, 50104, username=790f6802-7535-4109-de6d-15f676d5e3f7, tls=false
-🇺🇸US_256 = vmess, 38.54.108.202, 20251, username=4fd11743-c1aa-4773-fae1-665e81095456, tls=false
-🇺🇸US_257 = vmess, 172.252.193.236, 22830, username=73fbfbd6-c11c-4dd7-8ef8-a110148cf140, tls=false
-🇺🇸US_258 = vmess, 166.88.134.233, 34493, username=2c83bd53-02c0-4679-b69e-d30365e6f5a0, ws=true, tls=false, ws-path=/
-🇺🇸US_259 = vmess, 154.9.230.60, 47860, username=cc560271-938e-45cd-c1da-2ba993064c93, ws=true, tls=false, ws-path=/
-🇺🇸US_260 = vmess, singapore.com, 80, username=b1e30339-a603-47d1-b31c-1d0ceb59952e, ws=true, tls=false, ws-path=/api/v3/download.getFile, ws-headers=HOST:ssrsub.v03.ssrsub.com
-🇺🇸US_261 = vmess, 38.54.14.118, 20346, username=405f72d5-061f-415c-a046-51295fa6179d, tls=false
-Relay_🇺🇸US-🇺🇸US_262 = vmess, d.mac2win.top, 8080, username=65ae35d1-01b8-42e4-8373-00d01623c6ed, ws=true, tls=false, ws-path=/, ws-headers=HOST:icu.mac2win.top
-Relay_🇺🇸US-🇺🇸US_263 = vmess, c.mac2win.top, 8080, username=65ae35d1-01b8-42e4-8373-00d01623c6ed, ws=true, tls=false, ws-path=/, ws-headers=HOST:icu.mac2win.top
-Relay_🇺🇸US-🇺🇸US_264 = vmess, b.mac2win.top, 8080, username=65ae35d1-01b8-42e4-8373-00d01623c6ed, ws=true, tls=false, ws-path=/, ws-headers=HOST:icu.mac2win.top
-🇺🇸US_265 = vmess, 172.252.136.243, 26818, username=3e05bb8b-87be-4880-f3b8-3904c138fc57, tls=false
-🇺🇸US_266 = vmess, 166.88.134.178, 49547, username=9d8a8b2f-0344-4d21-e550-ff0d58039217, ws=true, tls=false, ws-path=/
-Relay_🇺🇸US-🇬🇧GB_267 = vmess, 2876be99-f.3nvx.com, 443, username=74dd674d-35fa-4f75-8b05-0f276e15c091, ws=true, tls=true, ws-path=/assets, ws-headers=HOST:2876be99-f.3nvx.com
-🇺🇸US_268 = vmess, 50.117.65.155, 35695, username=b9de0f7a-d104-418a-9b2a-1abcae26178b, ws=true, tls=false, ws-path=/
-🇺🇸US_269 = vmess, 94.131.14.177, 80, username=2c5fee13-f08b-4ba8-86db-27dd51cb9781, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:lt2-vmess.sshmax.xyz
-🇺🇸US_270 = vmess, 64.176.37.216, 45930, username=b2930b0d-02b4-45dc-8025-a3c19879d4ab, tls=false
-🇺🇸US_271 = vmess, 64.176.39.31, 56262, username=590f2744-e9d1-4f2c-a384-d35b736bca41, tls=false
-🇺🇸US_272 = vmess, 154.90.34.148, 33890, username=f5c49819-07c3-4fb5-b7ca-395303d83417, ws=true, tls=false, ws-path=/
-🇺🇸US_273 = vmess, 154.90.34.36, 27753, username=f63cf6da-fbc8-48ec-ed3d-2b9b80a66c58, ws=true, tls=false, ws-path=/
-🇺🇸US_274 = vmess, 38.54.36.214, 31682, username=217fdbc2-c062-4632-c440-36c3a4934713, ws=true, tls=false, ws-path=/
-🇺🇸US_275 = vmess, ns1.v2-vip.fun, 80, username=b1e30339-a603-47d1-b31c-1d0ceb59952e, ws=true, tls=false, ws-path=/api/v3/download.getFile, ws-headers=HOST:ssrsub.v005.ssrsub.com
-🇺🇸US_276 = vmess, 38.54.36.181, 50674, username=09a9bdf1-7584-4b52-e810-c1330396c2cb, ws=true, tls=false, ws-path=/
-🇺🇸US_277 = vmess, 64.176.46.36, 111, username=7235eb19-ab55-4f0d-cb0a-a620930a5b59, ws=true, tls=false, ws-path=/
-Relay_🇺🇸US-🏁ZZ_278 = vmess, polouk.yj2022.gq, 8080, username=4b5e4565-322f-4223-a891-78a84f189726, ws=true, tls=false, ws-path=/r8ykwif5rffiqJeJ49zLka7PbhWz3wiHs8cSeiRyZL, ws-headers=HOST:polouk.yj2022.gq
-🇺🇸US_279 = vmess, 38.54.82.54, 41604, username=54de50e5-5e4b-443f-d9b8-9e9e0eee865c, tls=false
-Relay_🇺🇸US-🏁ZZ_280 = vmess, 80e046ce-f.3nvx.com, 443, username=74dd674d-35fa-4f75-8b05-0f276e15c091, ws=true, tls=true, ws-path=/assets, ws-headers=HOST:80e046ce-f.3nvx.com
-🇺🇸US_281 = vmess, 154.90.39.63, 45343, username=08aa8499-d616-4ff1-d6ab-ce0c522824aa, tls=false
-Relay_🏁ZZ-🇷🇴RO_286 = vmess, xsasowspdqz.site, 443, username=4fa35ea4-668e-4d7b-9bbc-b83681060617, ws=true, tls=true, ws-path=/kwhmvws, ws-headers=HOST:xsasowspdqz.site
-🏁ZZ_287 = vmess, cf-jpc.handboy.top, 2086, username=22425357-dc2f-4001-afe2-7f56a7210fca, ws=true, tls=false, ws-path=/asdas, ws-headers=HOST:cf-jp.handboy.site
-Relay_🏁ZZ-🇱🇹LT_288 = vmess, moon.chanell.mci.v-x4ssd.space, 8080, username=6ad7afd7-6958-478e-9fff-88f16f9a2008, ws=true, tls=false, ws-path=/, ws-headers=HOST:moon.chanell.mci.v-x4ssd.space
-🏁ZZ_289 = vmess, 103.180.161.47, 23898, username=aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, tls=false
-Relay_🏁ZZ-🇺🇸US_290 = vmess, 104.21.31.183, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:octavi.cfd
-Relay_🏁ZZ-🇰🇷KR_291 = vmess, zfc.windowsupdate1.com, 8080, username=f32fb637-67eb-48be-9f29-4523c4720de7, ws=true, tls=false, ws-path=/, ws-headers=HOST:kryx.651568.xyz
-🏁ZZ_292 = vmess, 104.21.3.4, 80, username=c97cf46e-1554-36cb-8b36-c3556b883dc4, ws=true, tls=false, ws-path=/526-dekDP6Otf, ws-headers=HOST:v118a.ai88888.top
-Relay_🏁ZZ-🇨🇦CA_293 = vmess, cloudconeaaa.gorgorchicken.one, 8443, username=1cec1ebc-b489-4769-f2d9-e079b5832a60, ws=true, tls=true, ws-path=/cloudconeaaa, ws-headers=HOST:cloudconeaaa.gorgorchicken.one
-🏁ZZ_294 = vmess, 103.177.94.138, 22843, username=009bae05-80bb-4e27-d2c1-efea629e95ae, tls=false
-🏁ZZ_295 = vmess, upload.ir, 80, username=085f6281-5c4c-4a34-8b44-d65bc2e2b069, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:is3-vmess.sshmax.xyz
-Relay_🏁ZZ-🇺🇸US_296 = vmess, ming2.kiwireich.com, 443, username=18e5f40f-bda6-4c15-9334-e87cda6047af, ws=true, tls=true, ws-path=/ray
-🏁ZZ_297 = vmess, cc2.shabijichang.com, 80, username=56278a1a-c7cc-459f-b00c-3037e4f99590, ws=true, tls=false, ws-path=/, ws-headers=HOST:cc2.shabijichang.com
+🇨🇳CN_10 = ss, music.desperadoj.com, 30003, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, udp-relay=false
+🇨🇳CN_11 = ss, 43.156.241.221, 10000, encrypt-method=aes-256-gcm, password=123, udp-relay=false
+🇨🇳CN_12 = ss, 43.156.237.238, 10000, encrypt-method=aes-256-gcm, password=123, udp-relay=false
+🇨🇳CN_13 = ss, music.desperadoj.com, 30001, encrypt-method=aes-128-gcm, password=desperadoj.com_free_proxy_etg0, udp-relay=false
+🇨🇳CN_27 = vmess, 43.153.210.169, 666, username=34a2f093-c236-4edc-eb6a-663f1bfaa136, tls=false
+🇨🇴CO_28 = vmess, 188.114.97.3, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:oliv.beauty
+🇨🇴CO_29 = vmess, 188.114.96.7, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:octavi.cfd
+🇨🇴CO_30 = vmess, 188.114.98.0, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:odelia.autos
+🇩🇪DE_31 = ss, 45.82.167.133, 28399, encrypt-method=aes-256-gcm, password=admin, udp-relay=false
+🇩🇪DE_32 = vmess, 79.132.128.60, 21524, username=839102ad-842f-43e5-e589-ac10a3c78571, ws=true, tls=false, ws-path=/
+🇩🇪DE_33 = vmess, 130.61.111.167, 21872, username=9a7a75d4-ab7e-4ba0-bbfa-a4acddc18084, tls=false
+🇩🇪DE_34 = vmess, ee1-vmess.sshmax.xyz, 80, username=34d4f393-ead9-48df-9370-ca8b52e6aabd, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:ee1-vmess.sshmax.xyz
+🇩🇪DE_35 = vmess, 172.104.240.196, 18924, username=2e96758e-8e77-47e1-8ca9-111892605b3a, tls=false
+🇩🇪DE_36 = vmess, 195.201.44.114, 57565, username=2f39acb4-87d5-498e-feaf-d3733f7894be, tls=false
+🇫🇷FR_37 = ss, 135.125.172.139, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇫🇷FR_38 = ss, 135.125.172.153, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇫🇷FR_39 = ss, 62.210.88.164, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇫🇷FR_40 = ss, 54.36.174.181, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇫🇷FR_41 = ss, 145.239.1.100, 5601, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇫🇷FR_42 = ss, 149.202.82.172, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇫🇷FR_43 = ss, 54.36.174.181, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
+🇫🇷FR_44 = ss, 54.36.174.181, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇫🇷FR_45 = ss, 54.36.174.181, 7002, encrypt-method=aes-256-gcm, password=RexnBgU7EV5ADxG, udp-relay=false
+🇫🇷FR_46 = ss, 145.239.1.100, 8882, encrypt-method=aes-256-gcm, password=kDWvXYZoTBcGkC4, udp-relay=false
+🇫🇷FR_47 = ss, 149.202.82.172, 6697, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
+🇫🇷FR_48 = ss, 145.239.1.100, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇫🇷FR_49 = ss, 54.36.174.181, 8008, encrypt-method=aes-256-gcm, password=XKFKl2rULjIp74, udp-relay=false
+🇫🇷FR_50 = ss, 149.202.82.172, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇫🇷FR_51 = ss, 51.158.195.96, 80, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇫🇷FR_52 = ss, ak1751.www.outline.network.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou, 5600, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇫🇷FR_53 = ss, 54.36.174.181, 8118, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
+🇫🇷FR_54 = ss, 54.36.174.181, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇫🇷FR_55 = ss, 51.158.195.96, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇫🇷FR_56 = ss, 145.239.1.100, 8888, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇫🇷FR_58 = vmess, 23.247.130.248, 17057, username=569a26ec-1a28-421d-df9a-e15aefc15531, tls=false
+🇬🇧GB_59 = ss, 185.151.146.169, 38935, encrypt-method=aes-256-gcm, password=chG0C20Pab, udp-relay=false
+🇬🇧GB_60 = ss, 212.102.53.78, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
+🇬🇧GB_61 = ss, 212.102.53.80, 443, encrypt-method=aes-128-gcm, password=shadowsocks, udp-relay=false
+🇬🇧GB_62 = vmess, 193.57.57.218, 10001, username=9c552fba-dab7-4ebe-ca4f-1587c3cf12bf, tls=false
+🇬🇧GB_63 = vmess, 172.99.190.109, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws
+🇬🇧GB_64 = vmess, 144.24.88.101, 16833, username=f5425ccf-3946-4fb4-eb24-5393d78a392f, tls=false
+🇭🇰HK_65 = ss, 47.242.254.199, 10625, encrypt-method=aes-256-gcm, password=GxgwgsEqrM, udp-relay=false
+🇭🇰HK_66 = ss, 47.243.108.41, 10841, encrypt-method=aes-256-gcm, password=rUx8mqUsI0, udp-relay=false
+🇭🇰HK_67 = ss, 47.242.177.168, 32259, encrypt-method=aes-128-gcm, password=HOUyi530, udp-relay=false
+🇭🇰HK_68 = ss, 47.57.232.119, 2119, encrypt-method=aes-256-gcm, password=3B9vFTBSlp, udp-relay=false
+🇭🇰HK_69 = ss, 8.210.231.146, 1146, encrypt-method=aes-256-gcm, password=jmtgsmW40R, udp-relay=false
+🇭🇰HK_70 = vmess, 115.126.50.111, 16399, username=0a824660-8b17-4665-d2b4-a86c7f15d32a, tls=false
+🇭🇰HK_71 = vmess, cm1.xn-w1yu8o.xyz, 80, username=a5319baa-e846-43c7-91c2-d67a1e307c8b, ws=true, tls=false, ws-path=/, ws-headers=HOST:icu2.mac2win.top
+🇮🇩ID_74 = vmess, 223.165.6.75, 58922, username=18d05f9f-a7e8-4603-da64-da15790611a3, tls=false
+🇮🇳IN_75 = vmess, 103.114.201.143, 59487, username=51fb562e-0a9b-4c27-e4d8-6f4883bb5165, tls=false
+🇯🇵JP_76 = ss, tg_mfbpn_ahk2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇯🇵JP_77 = ss, tg_mfbpn_akr2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇯🇵JP_78 = vmess, 140.83.63.38, 24445, username=94c5ef37-4d82-49f9-c624-f01259374a17, tls=false
+🇯🇵JP_79 = vmess, 183.181.36.194, 41597, username=4a6eaa2d-5603-4c05-d967-fb6f42250a5a, ws=true, tls=false, ws-path=/
+🇰🇷KR_80 = ss, tg_mfbpn_atw1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇰🇷KR_81 = ss, tg_mfbpn_ajp2.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇰🇷KR_82 = ss, 13.125.30.161, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇰🇷KR_83 = ss, 183.110.194.4, 9988, encrypt-method=aes-256-gcm, password=12345678, udp-relay=false
+🇱🇺LU_85 = vmess, 107.189.29.193, 21280, username=2d23b71f-78e1-4f17-a7cc-1ef04a910a4c, tls=false
+🇳🇱NL_86 = vmess, 130.162.154.209, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=/ophelia.mom:443/linkvws, ws-headers=HOST:cf.tonyluk.link
+🇷🇺RU_89 = ss, 212.113.106.243, 12949, encrypt-method=chacha20-ietf-poly1305, password=P2zxXPewlV3BlfqqYiSthvtLc, udp-relay=false
+🇷🇺RU_90 = vmess, 46.29.166.124, 47412, username=291a5c6a-447e-4fc7-b3d7-28ebec5cbcd7, tls=false
+🇷🇺RU_91 = vmess, 46.29.166.237, 47555, username=0c49cd19-2758-4d38-e6a8-11f2d6635860, tls=false
+🇸🇪SE_92 = ss, 195.181.166.176, 443, encrypt-method=aes-256-cfb, password=asdKkaskJKfnsa, udp-relay=false
+🇸🇪SE_93 = vmess, 148.135.72.169, 8080, username=e514c3c9-703d-4e94-e71f-73f9f34897ec, ws=true, tls=false, ws-path=/
+🇸🇬SG_94 = ss, 13.250.125.29, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇸🇬SG_95 = ss, 13.215.194.232, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇸🇬SG_96 = ss, 8.219.180.58, 36124, encrypt-method=aes-256-gcm, password=B7O79XQdWI, udp-relay=false
+🇸🇬SG_97 = vmess, 8.219.59.222, 46998, username=5c9bed1a-716b-43e7-c807-9e0758186360, ws=true, tls=false, ws-path=/
+🇸🇬SG_98 = vmess, 8.222.187.112, 44574, username=b18dc5ba-62b7-4423-aacc-f184da15c033, tls=false
+🇸🇬SG_99 = vmess, 8.219.240.120, 32969, username=95249020-fbb7-4592-efce-6ad3954c3fad, tls=false
+🇸🇬SG_100 = vmess, 43.131.62.103, 666, username=11c9f30c-c9a4-4e61-a34c-4dd31d050b3f, tls=false
+🇹🇼TW_101 = ss, 103.158.74.24, 8881, encrypt-method=aes-128-gcm, password=c44b01a6-2a53-4913-95e2-8df1f61869f7, udp-relay=false
+🇹🇼TW_102 = vmess, b24.ntbq.dynu.net, 443, username=445405e7-8cb2-4a0f-be48-7714c8f233e2, ws=true, tls=true, ws-path=/b24, ws-headers=HOST:b24.ntbq.dynu.net
+🇹🇼TW_103 = vmess, b22.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b22, ws-headers=HOST:b22.ntbq.dynu.net
+🇹🇼TW_104 = vmess, 45.121.48.172, 10001, username=dba51a2e-a788-43b7-9ac4-9f7cc1255f15, tls=false
+🇹🇼TW_105 = vmess, 103.159.206.35, 31945, username=e2e511b0-7def-4e1b-d238-6cb5391b2e3f, ws=true, tls=false, ws-path=/
+🇹🇼TW_106 = vmess, b21.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b21, ws-headers=HOST:b21.ntbq.dynu.net
+🇹🇼TW_107 = vmess, 45.121.48.193, 10001, username=420026d3-474b-47e3-b26b-23a22aa1f4f4, tls=false
+🇹🇼TW_108 = vmess, b23.ntbq.dynu.net, 443, username=8e53b838-e5a4-45fb-94c2-f5dd7f7f729a, ws=true, tls=true, ws-path=/b23
+🇺🇦UA_110 = ss, 95.164.44.21, 8388, encrypt-method=chacha20-ietf-poly1305, password=OTI5ZDhk, udp-relay=false
+🇺🇦UA_111 = ss, 89.185.31.107, 29524, encrypt-method=aes-256-gcm, password=COCA2quJLg, udp-relay=false
+🇺🇸US_112 = ss, 43.201.104.144, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_113 = ss, 43.206.212.255, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_114 = ss, 142.202.48.43, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_115 = ss, 38.75.136.49, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_116 = ss, 38.68.134.69, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_117 = ss, 38.75.137.9, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_118 = ss, 43.201.5.239, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_119 = ss, 38.75.137.66, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_120 = ss, 38.75.137.71, 5601, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_121 = ss, 43.202.61.138, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_122 = ss, 50.114.159.250, 6666, encrypt-method=aes-256-gcm, password=bI51Uc7CL6, udp-relay=false
+🇺🇸US_123 = ss, 43.200.6.19, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_124 = ss, 38.105.25.23, 8881, encrypt-method=aes-128-gcm, password=576da2e7-e517-49f3-a3ea-c2efb1f4a213, udp-relay=false
+🇺🇸US_125 = ss, 38.75.136.49, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_126 = ss, 38.75.137.71, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_127 = ss, 129.146.102.22, 34017, encrypt-method=aes-256-gcm, password=N0k6tSWblI, udp-relay=false
+🇺🇸US_128 = ss, 35.87.39.181, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_129 = ss, 167.88.61.175, 9102, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY, udp-relay=false
+🇺🇸US_130 = ss, 38.68.134.69, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_131 = ss, 38.75.137.9, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_132 = ss, 167.88.61.175, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_133 = ss, 38.75.137.71, 6679, encrypt-method=aes-256-gcm, password=TEzjfAYq2IjtuoS, udp-relay=false
+🇺🇸US_134 = ss, 23.94.76.55, 51981, encrypt-method=aes-256-gcm, password=06gZKkeC2J, udp-relay=false
+🇺🇸US_135 = ss, 38.75.137.71, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_136 = ss, 45.58.39.13, 58428, encrypt-method=aes-256-gcm, password=31LdYhP8Ae, udp-relay=false
+🇺🇸US_137 = ss, tg_mfbpn_akr1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_138 = ss, 38.75.137.71, 8000, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_139 = ss, 167.88.61.204, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_140 = ss, tg_mfbpn_ahk1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_141 = ss, 38.68.135.239, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_142 = ss, tg_mfbpn_asg1.52vpn.eu.org, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_143 = ss, 167.88.61.204, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, udp-relay=false
+🇺🇸US_144 = ss, 163.197.212.241, 5555, encrypt-method=aes-256-gcm, password=2006825xcj, udp-relay=false
+🇺🇸US_145 = ss, 38.143.66.187, 9101, encrypt-method=aes-256-gcm, password=e4FCWrgpkji3QY, udp-relay=false
+🇺🇸US_146 = ss, 38.75.137.71, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_147 = ss, 38.75.137.71, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_148 = ss, 38.75.137.66, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_149 = ss, 94.131.12.58, 26669, encrypt-method=chacha20-ietf-poly1305, password=B0ry56X2AxfFgcgI7sHDWD, udp-relay=false
+🇺🇸US_150 = ss, 142.202.48.43, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_151 = ss, 172.99.188.99, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_152 = ss, 142.202.48.99, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, udp-relay=false
+🇺🇸US_153 = ss, 38.68.134.69, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_154 = ss, 167.88.61.204, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_155 = ss, 172.99.188.99, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_156 = ss, 142.202.48.99, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_157 = ss, 172.99.188.99, 8888, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_158 = ss, 172.99.188.99, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_159 = ss, 38.91.101.221, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_160 = ss, 38.68.135.239, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_161 = ss, 38.75.137.71, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_162 = ss, 38.54.104.17, 18808, encrypt-method=aes-256-gcm, password=UEZLKj26tx, udp-relay=false
+🇺🇸US_163 = ss, 38.54.104.184, 18808, encrypt-method=aes-256-gcm, password=wwq6Xo5gJ8, udp-relay=false
+🇺🇸US_164 = ss, 167.88.61.204, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_165 = ss, 38.68.134.69, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_166 = ss, 38.68.135.239, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_167 = ss, 142.202.48.43, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_168 = ss, 38.75.137.71, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_169 = ss, 43.207.86.238, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_170 = ss, 167.88.61.175, 8119, encrypt-method=aes-256-gcm, password=cdBIDV42DCwnfIN, udp-relay=false
+🇺🇸US_171 = ss, 142.202.48.43, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_172 = ss, 142.202.48.43, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_173 = ss, 167.88.63.71, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_174 = ss, 142.202.48.43, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_175 = ss, 142.202.48.99, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_176 = ss, 167.88.63.71, 2375, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_177 = ss, 38.91.101.221, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_178 = ss, 45.56.72.68, 443, encrypt-method=aes-256-gcm, password=a123456, udp-relay=false
+🇺🇸US_179 = ss, 38.68.134.69, 8090, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_180 = ss, 38.75.137.9, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_181 = ss, 142.202.48.99, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_182 = ss, 38.75.137.71, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_183 = ss, 64.31.55.5, 11223, encrypt-method=aes-256-gcm, password=dongtaiwang.com, udp-relay=false
+🇺🇸US_184 = ss, 38.75.137.66, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_185 = ss, 167.88.61.175, 5001, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_186 = ss, 167.88.63.71, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_187 = ss, 167.88.63.71, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_188 = ss, 167.88.63.71, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_189 = ss, 43.201.253.32, 443, encrypt-method=aes-256-cfb, password=amazonskr05, udp-relay=false
+🇺🇸US_190 = ss, 167.88.63.71, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_191 = ss, 38.75.137.9, 3389, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_192 = ss, 142.202.48.99, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_193 = ss, 167.88.61.175, 5003, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_194 = ss, 38.68.134.69, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_195 = ss, 167.88.63.71, 7306, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_196 = ss, 167.88.63.71, 8091, encrypt-method=aes-256-gcm, password=PCnnH6SQSnfoS27, udp-relay=false
+🇺🇸US_197 = ss, 167.88.61.175, 8080, encrypt-method=aes-256-gcm, password=KixLvKzwjekG00rm, udp-relay=false
+🇺🇸US_198 = ss, 167.88.63.71, 3306, encrypt-method=aes-256-gcm, password=Y6R9pAtvxxzmGC, udp-relay=false
+🇺🇸US_199 = ss, 38.121.43.51, 2376, encrypt-method=aes-256-gcm, password=faBAoD54k87UJG7, udp-relay=false
+🇺🇸US_200 = ss, 167.88.63.71, 443, encrypt-method=aes-256-gcm, password=pKEW8JPByTVTLtM, udp-relay=false
+🇺🇸US_201 = ss, 38.91.101.221, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_202 = ss, 38.68.134.69, 7307, encrypt-method=aes-256-gcm, password=FoOiGlkAA9yPEGP, udp-relay=false
+🇺🇸US_203 = ss, 38.75.137.9, 5004, encrypt-method=aes-256-gcm, password=g5MeD6Ft3CWlJId, udp-relay=false
+🇺🇸US_205 = vmess, 172.67.184.13, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:sbl2.shabijichang.com
+🇺🇸US_206 = vmess, 172.252.136.243, 26818, username=3e05bb8b-87be-4880-f3b8-3904c138fc57, tls=false
+🇺🇸US_207 = vmess, 64.185.236.228, 21474, username=04efbfe8-71b1-43b0-f2e6-a12ec4900e28, tls=false
+🇺🇸US_208 = vmess, 172.252.193.236, 22830, username=73fbfbd6-c11c-4dd7-8ef8-a110148cf140, tls=false
+🇺🇸US_209 = vmess, 156.235.89.194, 10001, username=658c66dd-272f-444a-ed30-f6ca6bde7357, tls=false
+🇺🇸US_210 = vmess, 38.54.185.112, 30000, username=418048af-a293-4b99-9b0c-98ca3580dd24, ws=true, tls=true, ws-path=/path/1701091133409, ws-headers=HOST:www.73664999.xyz
+🇺🇸US_211 = vmess, cloudconebbb.gorgorchicken.one, 8443, username=aa0c4744-9568-4bee-a08b-73668a9b2a42, ws=true, tls=true, ws-path=/cloudconebbb
+🇺🇸US_212 = vmess, 38.147.165.244, 8081, username=757e9b90-7ea0-445d-f95f-ed3cec661b58, tls=false
+🇺🇸US_213 = vmess, n1701761456.gxpnmtg.cn, 443, username=bce406ed-1435-4afd-bb81-54ee21b696a7, ws=true, tls=true, ws-path=/
+🇺🇸US_214 = vmess, 104.237.128.72, 14432, username=4c09b776-6f83-4bf2-f7f7-4e286dbbb6da, tls=false
+🇺🇸US_215 = vmess, upload.ir, 80, username=085f6281-5c4c-4a34-8b44-d65bc2e2b069, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:is3-vmess.sshmax.xyz
+🇺🇸US_216 = vmess, 205.164.28.103, 13487, username=f5502283-53ba-442b-bdb1-a25745fd5c17, tls=false
+🇺🇸US_217 = vmess, cloudconeaaa.gorgorchicken.one, 8443, username=1cec1ebc-b489-4769-f2d9-e079b5832a60, ws=true, tls=true, ws-path=/cloudconeaaa, ws-headers=HOST:cloudconeaaa.gorgorchicken.one
+🇺🇸US_218 = vmess, 45.91.81.15, 59665, username=2197b938-a904-42d1-cf22-e68d5ca23726, tls=false
+🇺🇸US_219 = vmess, usd.yj2022.gq, 8880, username=4b5e4565-322f-4223-a891-78a84f189726, ws=true, tls=false, ws-path=/XSjeg73o6ZdsheahCb5JG, ws-headers=HOST:usd.yj2022.gq
+🇺🇸US_220 = vmess, 172.234.17.31, 48771, username=f1c2be64-961b-407a-c4e0-b8919ca1253b, tls=false
+🇺🇸US_221 = vmess, 64.176.42.137, 20886, username=f574b237-3ebf-405c-d540-541530fe5ed7, tls=false
+🇺🇸US_222 = vmess, 94.131.14.177, 80, username=2c5fee13-f08b-4ba8-86db-27dd51cb9781, ws=true, tls=false, ws-path=/vmess, ws-headers=HOST:lt2-vmess.sshmax.xyz
+🇺🇸US_223 = vmess, us-fsl.jikuai.xyz, 8443, username=70666776-4e9f-4350-b3f0-afaff6a70db0, ws=true, tls=true, ws-path=/user, ws-headers=HOST:us-fsl.jikuai.xyz
+🇺🇸US_224 = vmess, 172.67.229.31, 8880, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr7.tehme100.fun
+🇺🇸US_225 = vmess, 172.67.229.25, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
+🇺🇸US_226 = vmess, 64.176.59.68, 59350, username=5821ac21-8e3f-4c8b-832d-a55190c944e9, tls=false
+🇺🇸US_227 = vmess, 172.67.229.38, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
+🇺🇸US_228 = vmess, 38.54.108.202, 20251, username=4fd11743-c1aa-4773-fae1-665e81095456, tls=false
+🇺🇸US_229 = vmess, 172.67.229.29, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
+🇺🇸US_230 = vmess, 172.67.229.11, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
+🇺🇸US_231 = vmess, 158.101.7.8, 80, username=95b45c49-f5c0-4959-bb64-2b8fbc4a869c, ws=true, tls=false, ws-path=/
+🇺🇸US_232 = vmess, 152.69.197.60, 1069, username=ac8e26fe-8150-4b60-ae64-82fc77eba2cf, tls=false
+🇺🇸US_233 = vmess, 172.67.229.12, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
+🇺🇸US_234 = vmess, 104.31.16.46, 2082, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca5.tehme100.fun
+🇺🇸US_235 = vmess, 104.31.16.28, 80, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca4.tehme2.fun
+🇺🇸US_236 = vmess, 80.92.205.112, 443, username=4c90ba75-230b-4f8b-bbff-8efa0eb0415f, ws=true, tls=false, ws-path=/
+🇺🇸US_237 = vmess, 172.67.229.34, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
+🇺🇸US_238 = vmess, 14.vmessprotocol.telegram-vmessprotocol-channel.space, 2086, username=58fe1542-5290-40ad-815a-77707a81afe5, ws=true, tls=false, ws-path=/IOebhLMhl1CTbFHbL95myfRX2, ws-headers=HOST:ca6.tehme100.fun
+🇺🇸US_239 = vmess, 162.251.62.115, 22324, username=04621bae-ab36-11ec-b909-0242ac120002, tls=false
+🇺🇸US_240 = vmess, 64.176.58.15, 46154, username=adcbe160-3010-483d-b438-d6057f465b1d, tls=false
+🇺🇸US_241 = vmess, 172.67.229.30, 2095, username=617c9bc4-4116-41c6-99e0-ace49a38fcdb, ws=true, tls=false, ws-path=/Jnv8ViZOUVgijjOh0p5uGjHnXIiY, ws-headers=HOST:fr4.v2-teh.fun
+🇺🇸US_242 = vmess, 198.23.254.24, 43380, username=120dfc06-593d-4b80-a299-0f03e800e307, tls=false
+🇺🇸US_243 = vmess, 38.54.36.181, 50674, username=09a9bdf1-7584-4b52-e810-c1330396c2cb, ws=true, tls=false, ws-path=/
+🇺🇸US_244 = vmess, 154.9.230.60, 47860, username=cc560271-938e-45cd-c1da-2ba993064c93, ws=true, tls=false, ws-path=/
+🇺🇸US_245 = vmess, 38.180.33.136, 50104, username=790f6802-7535-4109-de6d-15f676d5e3f7, tls=false
+🇺🇸US_246 = vmess, 154.90.34.36, 27753, username=f63cf6da-fbc8-48ec-ed3d-2b9b80a66c58, ws=true, tls=false, ws-path=/
+🇺🇸US_247 = vmess, 64.176.37.216, 45930, username=b2930b0d-02b4-45dc-8025-a3c19879d4ab, tls=false
+🇺🇸US_248 = vmess, 64.176.47.200, 29414, username=4d5e8aa2-0641-4323-e92c-2c061cdc8e34, tls=false
+🇺🇸US_249 = vmess, 38.54.104.191, 54033, username=4e67a298-bf2e-4211-bc9a-dccd0fe3320d, ws=true, tls=false, ws-path=/
+🇺🇸US_250 = vmess, 154.90.34.148, 33890, username=f5c49819-07c3-4fb5-b7ca-395303d83417, ws=true, tls=false, ws-path=/
+🇺🇸US_251 = vmess, xsasowspdqz.site, 443, username=4fa35ea4-668e-4d7b-9bbc-b83681060617, ws=true, tls=true, ws-path=/kwhmvws, ws-headers=HOST:xsasowspdqz.site
+🇺🇸US_252 = vmess, 64.176.58.7, 14431, username=ff681ba6-55f5-4e79-8f40-ad6bbdf14044, tls=false
+🇺🇸US_253 = vmess, 38.54.82.54, 41604, username=54de50e5-5e4b-443f-d9b8-9e9e0eee865c, tls=false
+🇺🇸US_254 = vmess, 154.90.39.63, 45343, username=08aa8499-d616-4ff1-d6ab-ce0c522824aa, tls=false
+🇺🇸US_255 = vmess, 38.54.14.118, 20346, username=405f72d5-061f-415c-a046-51295fa6179d, tls=false
+🇺🇸US_256 = vmess, 64.176.39.31, 56262, username=590f2744-e9d1-4f2c-a384-d35b736bca41, tls=false
+🇺🇸US_257 = vmess, 38.54.36.214, 31682, username=217fdbc2-c062-4632-c440-36c3a4934713, ws=true, tls=false, ws-path=/
+🇺🇸US_258 = vmess, b.mac2win.top, 8080, username=65ae35d1-01b8-42e4-8373-00d01623c6ed, ws=true, tls=false, ws-path=/, ws-headers=HOST:icu.mac2win.top
+🇺🇸US_259 = vmess, ns1.v2-vip.fun, 80, username=b1e30339-a603-47d1-b31c-1d0ceb59952e, ws=true, tls=false, ws-path=/api/v3/download.getFile, ws-headers=HOST:ssrsub.v005.ssrsub.com
+🏁ZZ_264 = vmess, 104.21.31.183, 443, username=03fcc618-b93d-6796-6aed-8a38c975d581, ws=true, tls=true, ws-path=linkvws, ws-headers=HOST:octavi.cfd
+🏁ZZ_265 = vmess, 104.21.3.4, 80, username=c97cf46e-1554-36cb-8b36-c3556b883dc4, ws=true, tls=false, ws-path=/526-dekDP6Otf, ws-headers=HOST:v118a.ai88888.top
+🏁ZZ_266 = vmess, cf-jpc.handboy.top, 2086, username=22425357-dc2f-4001-afe2-7f56a7210fca, ws=true, tls=false, ws-path=/asdas, ws-headers=HOST:cf-jp.handboy.site
+🏁ZZ_267 = vmess, ming2.kiwireich.com, 443, username=18e5f40f-bda6-4c15-9334-e87cda6047af, ws=true, tls=true, ws-path=/ray
+🏁ZZ_268 = vmess, cc2.shabijichang.com, 80, username=56278a1a-c7cc-459f-b00c-3037e4f99590, ws=true, tls=false, ws-path=/, ws-headers=HOST:cc2.shabijichang.com
+🏁ZZ_269 = vmess, yhnsb3.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:yhnsb3.shabijichang.com
+🏁ZZ_270 = vmess, cc3.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:cc3.shabijichang.com
+🏁ZZ_271 = vmess, 103.180.161.47, 23898, username=aac30c4d-12f8-4dde-fd22-0d2eeeb9ce89, tls=false
+🏁ZZ_272 = vmess, 104.21.75.246, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:sbl2.shabijichang.com
+🏁ZZ_273 = vmess, sbl2.shabijichang.com, 80, username=c458695d-6908-45c3-9512-e0c46418454c, ws=true, tls=false, ws-path=/, ws-headers=HOST:sbl2.shabijichang.com
+🏁ZZ_274 = vmess, 103.177.94.138, 22843, username=009bae05-80bb-4e27-d2c1-efea629e95ae, tls=false
+🏁ZZ_275 = vmess, zfc.windowsupdate1.com, 8080, username=f32fb637-67eb-48be-9f29-4523c4720de7, ws=true, tls=false, ws-path=/, ws-headers=HOST:kryx.651568.xyz
